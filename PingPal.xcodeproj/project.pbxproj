@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2273B5F420A945C600778DE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2273B5F320A945C600778DE9 /* GoogleService-Info.plist */; };
+		22F33BF2207B311700B06882 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F33BF1207B311700B06882 /* AppDelegate.swift */; };
+		22F33BF4207B311700B06882 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F33BF3207B311700B06882 /* WelcomeViewController.swift */; };
+		22F33BF7207B311700B06882 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F33BF5207B311700B06882 /* Main.storyboard */; };
+		22F33BF9207B311800B06882 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22F33BF8207B311800B06882 /* Assets.xcassets */; };
+		22F33BFC207B311800B06882 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22F33BFA207B311800B06882 /* LaunchScreen.storyboard */; };
+		22F33C0A207B344200B06882 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F33C09207B344200B06882 /* RegisterViewController.swift */; };
+		22F33C0C207B347400B06882 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F33C0B207B347400B06882 /* HomeViewController.swift */; };
+		22F33C10207EE76000B06882 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F33C0F207EE76000B06882 /* LogInViewController.swift */; };
+		22F33C13207EF00900B06882 /* CustomPingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F33C11207EF00900B06882 /* CustomPingCell.swift */; };
+		22F33C14207EF00900B06882 /* PingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22F33C12207EF00900B06882 /* PingCell.xib */; };
+		22F33C17207F004400B06882 /* Ping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F33C16207F004400B06882 /* Ping.swift */; };
+		22F33C192081B85100B06882 /* NewPingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22F33C182081B85100B06882 /* NewPingViewController.swift */; };
+		7CA68CD16C782CB80D9CF0E4 /* Pods_PingPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A77FF89302779E5250D65D7D /* Pods_PingPal.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2273B5F320A945C600778DE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22F33BEE207B311700B06882 /* PingPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PingPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22F33BF1207B311700B06882 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22F33BF3207B311700B06882 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		22F33BF6207B311700B06882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22F33BF8207B311800B06882 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22F33BFB207B311800B06882 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22F33BFD207B311800B06882 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22F33C09207B344200B06882 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		22F33C0B207B347400B06882 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		22F33C0F207EE76000B06882 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		22F33C11207EF00900B06882 /* CustomPingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPingCell.swift; sourceTree = "<group>"; };
+		22F33C12207EF00900B06882 /* PingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PingCell.xib; sourceTree = "<group>"; };
+		22F33C16207F004400B06882 /* Ping.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Ping.swift; path = "../../../Custom Cell/Ping.swift"; sourceTree = "<group>"; };
+		22F33C182081B85100B06882 /* NewPingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewPingViewController.swift; path = "../../../Custom Cell/NewPingViewController.swift"; sourceTree = "<group>"; };
+		46AEF214ED929A7A82C9F43E /* Pods-PingPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingPal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PingPal/Pods-PingPal.debug.xcconfig"; sourceTree = "<group>"; };
+		A77FF89302779E5250D65D7D /* Pods_PingPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PingPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB5F72DC41901DE45D755E55 /* Pods-PingPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PingPal.release.xcconfig"; path = "Pods/Target Support Files/Pods-PingPal/Pods-PingPal.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22F33BEB207B311700B06882 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CA68CD16C782CB80D9CF0E4 /* Pods_PingPal.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22F33BE5207B311700B06882 = {
+			isa = PBXGroup;
+			children = (
+				22F33BF0207B311700B06882 /* PingPal */,
+				22F33BEF207B311700B06882 /* Products */,
+				E8ABE2850F5ED57BE77629E9 /* Pods */,
+				961A1D1C685AC4A8A2246479 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22F33BEF207B311700B06882 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22F33BEE207B311700B06882 /* PingPal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22F33BF0207B311700B06882 /* PingPal */ = {
+			isa = PBXGroup;
+			children = (
+				22F33C03207B32AA00B06882 /* Model */,
+				22F33C04207B32B100B06882 /* View */,
+				22F33C05207B32BD00B06882 /* Controller */,
+				22F33BF8207B311800B06882 /* Assets.xcassets */,
+				22F33C06207B32F500B06882 /* Supporting Files */,
+			);
+			path = PingPal;
+			sourceTree = "<group>";
+		};
+		22F33C03207B32AA00B06882 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				22F33C16207F004400B06882 /* Ping.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		22F33C04207B32B100B06882 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22F33BFA207B311800B06882 /* LaunchScreen.storyboard */,
+				22F33BF5207B311700B06882 /* Main.storyboard */,
+				22F33C15207EF00E00B06882 /* Custom Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		22F33C05207B32BD00B06882 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22F33BF1207B311700B06882 /* AppDelegate.swift */,
+				22F33BF3207B311700B06882 /* WelcomeViewController.swift */,
+				22F33C09207B344200B06882 /* RegisterViewController.swift */,
+				22F33C0F207EE76000B06882 /* LogInViewController.swift */,
+				22F33C0B207B347400B06882 /* HomeViewController.swift */,
+				22F33C182081B85100B06882 /* NewPingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		22F33C06207B32F500B06882 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2273B5F320A945C600778DE9 /* GoogleService-Info.plist */,
+				22F33BFD207B311800B06882 /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22F33C15207EF00E00B06882 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				22F33C11207EF00900B06882 /* CustomPingCell.swift */,
+				22F33C12207EF00900B06882 /* PingCell.xib */,
+			);
+			path = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		961A1D1C685AC4A8A2246479 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A77FF89302779E5250D65D7D /* Pods_PingPal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8ABE2850F5ED57BE77629E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				46AEF214ED929A7A82C9F43E /* Pods-PingPal.debug.xcconfig */,
+				BB5F72DC41901DE45D755E55 /* Pods-PingPal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22F33BED207B311700B06882 /* PingPal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22F33C00207B311800B06882 /* Build configuration list for PBXNativeTarget "PingPal" */;
+			buildPhases = (
+				CB90CF0F466C054C579846A4 /* [CP] Check Pods Manifest.lock */,
+				22F33BEA207B311700B06882 /* Sources */,
+				22F33BEB207B311700B06882 /* Frameworks */,
+				22F33BEC207B311700B06882 /* Resources */,
+				923B3BF83856EB65AEAEB28A /* [CP] Embed Pods Frameworks */,
+				2D3847216301E153E125C6C8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PingPal;
+			productName = PingPal;
+			productReference = 22F33BEE207B311700B06882 /* PingPal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22F33BE6207B311700B06882 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "DJ Rose";
+				TargetAttributes = {
+					22F33BED207B311700B06882 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 22F33BE9207B311700B06882 /* Build configuration list for PBXProject "PingPal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22F33BE5207B311700B06882;
+			productRefGroup = 22F33BEF207B311700B06882 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22F33BED207B311700B06882 /* PingPal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22F33BEC207B311700B06882 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F33BFC207B311800B06882 /* LaunchScreen.storyboard in Resources */,
+				22F33C14207EF00900B06882 /* PingCell.xib in Resources */,
+				2273B5F420A945C600778DE9 /* GoogleService-Info.plist in Resources */,
+				22F33BF9207B311800B06882 /* Assets.xcassets in Resources */,
+				22F33BF7207B311700B06882 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2D3847216301E153E125C6C8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PingPal/Pods-PingPal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		923B3BF83856EB65AEAEB28A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PingPal/Pods-PingPal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/BoringSSL/openssl.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC/GRPCClient.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-Core/grpc.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-ProtoRPC/ProtoRPC.framework",
+				"${BUILT_PRODUCTS_DIR}/gRPC-RxLibrary/RxLibrary.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/openssl.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GRPCClient.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/grpc.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ProtoRPC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxLibrary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PingPal/Pods-PingPal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB90CF0F466C054C579846A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PingPal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22F33BEA207B311700B06882 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22F33C0A207B344200B06882 /* RegisterViewController.swift in Sources */,
+				22F33C13207EF00900B06882 /* CustomPingCell.swift in Sources */,
+				22F33BF4207B311700B06882 /* WelcomeViewController.swift in Sources */,
+				22F33BF2207B311700B06882 /* AppDelegate.swift in Sources */,
+				22F33C17207F004400B06882 /* Ping.swift in Sources */,
+				22F33C192081B85100B06882 /* NewPingViewController.swift in Sources */,
+				22F33C10207EE76000B06882 /* LogInViewController.swift in Sources */,
+				22F33C0C207B347400B06882 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22F33BF5207B311700B06882 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22F33BF6207B311700B06882 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22F33BFA207B311800B06882 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22F33BFB207B311800B06882 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22F33BFE207B311800B06882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22F33BFF207B311800B06882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22F33C01207B311800B06882 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46AEF214ED929A7A82C9F43E /* Pods-PingPal.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PR2Z65Y7K;
+				INFOPLIST_FILE = "$(SRCROOT)/PingPal/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djrose.PingPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22F33C02207B311800B06882 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB5F72DC41901DE45D755E55 /* Pods-PingPal.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6PR2Z65Y7K;
+				INFOPLIST_FILE = "$(SRCROOT)/PingPal/Supporting Files/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.djrose.PingPal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22F33BE9207B311700B06882 /* Build configuration list for PBXProject "PingPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F33BFE207B311800B06882 /* Debug */,
+				22F33BFF207B311800B06882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22F33C00207B311800B06882 /* Build configuration list for PBXNativeTarget "PingPal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22F33C01207B311800B06882 /* Debug */,
+				22F33C02207B311800B06882 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22F33BE6207B311700B06882 /* Project object */;
+}
